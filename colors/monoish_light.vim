@@ -4,9 +4,9 @@ if version > 580
         syntax reset
     endif
 endif
-let g:colors_name = "monoish"
+let g:colors_name = "monoish_light"
 
-set background = light
+set background=light
 hi Normal guifg=#262626 guibg=#cccccc guisp=#cccccc gui=NONE ctermfg=235 ctermbg=252 cterm=NONE
 hi Identifier guifg=#4a4a4a guibg=NONE gui=bold ctermfg=239 ctermbg=NONE cterm=bold
 hi PreProc gui=NONE guifg=NONE guibg=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
